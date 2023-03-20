@@ -29,6 +29,7 @@ while i < rows:
   email.append(lastname[i] + "." + firstname[i] + "@datacompany.com")
   i += 1
 
+
 i = 0
 companyname = []
 while i < rows:
@@ -46,3 +47,4 @@ df = pd.DataFrame(customerdata1)
 df.to_csv('projectdata_customers.csv',index=False,header=["CustomerID","CompanyName","FirstName","LastName","Email","Phone","Street","City","State","ZIP"])
 
 
+#cindy was here
